@@ -31,16 +31,14 @@
     <div class="main_inner">
       <figure class="logo_top"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_header_image();?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" /></a></figure>
       <div class="navSearch_w">
-        <div class="search_box"><img src="<?php echo bloginfo('template_directory');?>/images/search_box.png"></div>
+        <div class="search_box">
+          <?php get_search_form(); ?>
+        </div>
         <nav class="nav_top full_width">
-          <ul class="topNav_Ul full_width">
-            <li class="active"><a href="">A Record of Success</a></li>
-            <li><a href="">A Plan for the Future</a></li>
-            <li><a href="">Kristen's Blog</a></li>
-            <li><a href="">You Can Help </a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+          <?php $defaults = 
+	    array('menu'  => 'Header Menu', 'container' => '', 'echo' => true, 'items_wrap' => '<ul class="topNav_Ul full_width">%3$s</ul>',);
+		wp_nav_menu( $defaults );
+		?>
         </nav>
       </div>
     </div>

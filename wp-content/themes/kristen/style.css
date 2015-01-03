@@ -20,10 +20,22 @@ a:hover{color:#ed2024;}
 header.topheader .logo_top{position:absolute; left:0; top:12px; z-index:999}
 .navSearch_w{float:right;}
 .search_box{width:100%; float:left; margin:30px 0 0 0; text-align:right;}
+.search_box form{float:right; position:relative;}
+.search_box form label span{display:none;}
+.search_box form label input{ font-size:12px; padding:8px; border:1px solid #dddddd; width:265px; border-radius:5px;
+background: #f3f3f3; /* Old browsers */
+background: -moz-linear-gradient(top, #f3f3f3 1%, #fafafa 66%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f3f3f3), color-stop(66%,#fafafa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f3f3f3 1%,#fafafa 66%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f3f3f3 1%,#fafafa 66%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f3f3f3 1%,#fafafa 66%); /* IE10+ */
+background: linear-gradient(to bottom, #f3f3f3 1%,#fafafa 66%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */}
+.search_box form .search-submit{background:url(images/search_btn.png) no-repeat center;color: rgba(0, 0, 0, 0); cursor: pointer; height: 16px; overflow: hidden; position: absolute; right: 8px; top: 9px; width: 16px;}
 .topNav_Ul{display:block; text-align:right; margin-top:10px}
 .topNav_Ul li{list-style:none; display:inline-block;}
 .topNav_Ul li a{padding:30px 12px 25px 12px; display:inline-block; color:#334096;}
-.topNav_Ul li a:hover, .topNav_Ul li.active a{ background:#f6f6f6; color:#ed2024;}
+.topNav_Ul li a:hover, .topNav_Ul li.current-menu-item a{ background:#f6f6f6; color:#ed2024;}
 .banner_area{background:#ed2024; height:496px; overflow:hidden;}
 .index_body{padding:65px 0 0 0;}
 .get_latest_w{text-align:center; position:relative; margin:0 0 38px 0;}
@@ -36,7 +48,7 @@ header.topheader .logo_top{position:absolute; left:0; top:12px; z-index:999}
 .blog_title_index.blog_postLi_index{border-radius:3px; text-align:left;}
 .blog_postLi_index h2{font-size:20px;}
 .blog_postLi_index ul{width:100%; display:block; float:left; font-size:14px; margin-bottom:20px;}
-.blog_postLi_index ul li{list-style:none; width:100%; float:left; background:url(../images/arrow_icn.png) no-repeat center left; padding:0 0 0 18px; margin-top:8px;}
+.blog_postLi_index ul li{list-style:none; width:100%; float:left; background:url(images/arrow_icn.png) no-repeat center left; padding:0 0 0 18px; margin-top:8px;}
 .blog_postLi_index ul li a{color:#fff;}
 .blog_postLi_index ul li a:hover{text-decoration:underline;}
 .subscribe_news_letter{margin:60px 0 30px 0;}
@@ -53,12 +65,13 @@ footer.footer_main .footer_logo img{width:100%; float:left;}
 .footer_right{max-width:900px; float:right;}
 footer.footer_main .footer_nav ul li{list-style:none; display:inline-block;}
 footer.footer_main .footer_nav ul li a{color:#fff; margin:0 25px 0 0;}
+footer.footer_main .footer_nav ul li a:hover, footer.footer_main .footer_nav ul li.current-menu-item a{text-decoration:underline;}
 footer.footer_main .footer_nav{border-bottom:1px solid #000;}
 footer.footer_main .footer_nav ul{float:left; padding:20px 0;}
 footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
-.footer_nav .social_icon .fb_icn{width:40px; height:40px; display:block; float:left; background:url(../images/social_icon.png) no-repeat 0px 0; }
-.footer_nav .social_icon .tw_icn{width:40px; height:40px; display:block; float:left; background:url(../images/social_icon.png) no-repeat -40px 0; margin-left:8px;}
-.footer_nav .social_icon .ytube_icn{width:40px; height:40px; display:block; float:left; background:url(../images/social_icon.png) no-repeat -82px 0; margin-left:8px;}
+.footer_nav .social_icon .fb_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat 0px 0; }
+.footer_nav .social_icon .tw_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat -40px 0; margin-left:8px;}
+.footer_nav .social_icon .ytube_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat -82px 0; margin-left:8px;}
 footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
 
 
