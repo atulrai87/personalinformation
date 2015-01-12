@@ -83,7 +83,20 @@ function twentyfourteen_setup() {
 		'primary'   => __( 'Top primary menu', 'twentyfourteen' ),
 		'secondary' => __( 'Secondary menu in left sidebar', 'twentyfourteen' ),
 	) );
+add_action('admin_menu', 'register_my_custom_submenu_page');
 
+function register_my_custom_submenu_page() {
+   
+add_submenu_page( 
+          null   //or 'options.php' 
+        , 'My Custom Submenu Page' 
+        , 'My Custom Submenu Page'
+        , 'manage_options'
+        , 'my-custom-submenu-page'
+        , 'my_custom_submenu_page_callback'
+    );
+
+}
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
@@ -194,6 +207,25 @@ function twentyfourteen_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'blog area', 'twentyfourteen' ),
+		'id'            => 'sidebar-4',
+		'description'   => __( 'Appears in the footer section of the site.', 'twentyfourteen' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'News letter', 'twentyfourteen' ),
+		'id'            => 'sidebar-5',
+		'description'   => __( 'Appears in the footer section of the site.', 'twentyfourteen' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+	
 }
 add_action( 'widgets_init', 'twentyfourteen_widgets_init' );
 
@@ -517,3 +549,7 @@ require get_template_directory() . '/inc/customizer.php';
 if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow'] ) {
 	require get_template_directory() . '/inc/featured-content.php';
 }
+function make_blog_name_from_name($name = '') {
+     return "Help Kristen";
+}
+add_filter('wp_mail_from_name', 'make_blog_name_from_name');

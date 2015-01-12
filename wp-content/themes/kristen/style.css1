@@ -1,0 +1,75 @@
+/*
+Theme Name: Kristen
+Author: Enthuons
+Author URI: http://enthuons.com/
+Version: 1.0
+ */
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+*{margin:0; padding:0; border:0; outline:0; box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box;}
+body{position:relative; height:100%; font-size:16px; font-family: 'Raleway', sans-serif; color:#000;}
+header, nav, section, article, aside, figure, footer, ul{display:block; margin:0; padding:0;}
+ul, li, p, h1, h2, h3, h4, h5, h6{padding:0; margin:0; font-weight:normal;}
+a{color:#ed2024; text-decoration:none;}
+a:hover{color:#ed2024;}
+.clear{clear:both;}
+.float_left{float:left !important;}
+.float_right{float:right !important;}
+.full_width{width:100%; float:left; position:relative;}
+.main_container{max-width:1024px; margin:0 auto;}
+.main_inner{width:100%; padding:0 1%; position:relative; float:left;}
+header.topheader .logo_top{position:absolute; left:0; top:12px; z-index:999}
+.navSearch_w{float:right;}
+.search_box{width:100%; float:left; margin:30px 0 0 0; text-align:right;}
+.topNav_Ul{display:block; text-align:right; margin-top:10px}
+.topNav_Ul li{list-style:none; display:inline-block;}
+.topNav_Ul li a{padding:30px 12px 25px 12px; display:inline-block; color:#334096;}
+.topNav_Ul li a:hover, .topNav_Ul li.active a{ background:#f6f6f6; color:#ed2024;}
+.banner_area{background:#ed2024; height:496px; overflow:hidden;}
+.index_body{padding:65px 0 0 0;}
+.get_latest_w{text-align:center; position:relative; margin:0 0 38px 0;}
+.get_the_latest{ display:inline-block; font-size:25px; color:#fff; background:#ed2024; text-align:center; width:270px; padding:15px 0;}
+.get_latest_w:after{background:#ddd; content: ""; float: left; height: 1px; left: 0; position: absolute; top: 50%; width: 100%; z-index: -1;}
+.index_about_mayor{width:74%; float:left; line-height:30px; padding-right:10%;}
+.index_about_mayor .mayor_name{font-size:20px; margin-top:8px; text-align:right;}
+.index_Blog_links{ width:26%; float:left;}
+.blog_title_index{background:#f5686a; border:1px solid #ed2024; padding:12px; font-size:18px; color:#fff; text-align:center; margin-bottom:10px;}
+.blog_title_index.blog_postLi_index{border-radius:3px; text-align:left;}
+.blog_postLi_index h2{font-size:20px;}
+.blog_postLi_index ul{width:100%; display:block; float:left; font-size:14px; margin-bottom:20px;}
+.blog_postLi_index ul li{list-style:none; width:100%; float:left; background:url(images/arrow_icn.png) no-repeat center left; padding:0 0 0 18px; margin-top:8px;}
+.blog_postLi_index ul li a{color:#fff;}
+.blog_postLi_index ul li a:hover{text-decoration:underline;}
+.subscribe_news_letter{margin:60px 0 30px 0;}
+.subscribe_news_letter .main_inner{border:1px solid #acacac; overflow:hidden; border-radius:5px; background:#f1f1f1; padding:0;}
+.subscribe_blog_head{width:25%; float:left; color:#fff; font-size:19px; padding:26px 0; background:#ed2024; text-align:center;}
+.subscribe_news_letter form{width:75%; float:left; display:block;}
+.subscribe_news_letter form input{width:33%; margin:0 0 0 3%; background:none; font-size:17px; color:#ed2024; border-bottom:1px solid #ed2024; float:left; padding:30px 0 0 5px;}
+.subscribe_news_letter form .submit_newsletter{width:24%; float:left; margin:0 0 0 3%;}
+.subscribe_news_letter form .submit_newsletter input{width:90%; margin:17px 0 0 0;  border:none; background:#ed2024; color:#fff; text-transform:uppercase; font-size:17px; border-radius:3px; padding:8px 5px; text-align:center;}
+footer.footer_main{background:#ed2024; padding:15px 0;}
+footer.footer_main .main_inner{padding:0; font-size:15px;}
+footer.footer_main .footer_logo{max-width:110px; float:left;}
+footer.footer_main .footer_logo img{width:100%; float:left;}
+.footer_right{max-width:900px; float:right;}
+footer.footer_main .footer_nav ul li{list-style:none; display:inline-block;}
+footer.footer_main .footer_nav ul li a{color:#fff; margin:0 25px 0 0;}
+footer.footer_main .footer_nav{border-bottom:1px solid #000;}
+footer.footer_main .footer_nav ul{float:left; padding:20px 0;}
+footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
+.footer_nav .social_icon .fb_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat 0px 0; }
+.footer_nav .social_icon .tw_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat -40px 0; margin-left:8px;}
+.footer_nav .social_icon .ytube_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat -82px 0; margin-left:8px;}
+footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
+.red_color{color:#ed2024;}
+.main_headingBorder{border-bottom: 3px solid #ed2024; margin: 10px 0 0 15%; text-align: center; width: 70%;}
+.main_heading h1{text-align:center; font-size:24px; font-weight:bold; }
+.blue_text_container{margin:40px 0 30px 0;}
+.inner_blue_container{width:50%; float:left;}
+.inner_blue_container p{font-size:18px; float:left; color:#334096; line-height:36px;  }
+.btm_padding{padding-bottom:30px;}
+.img_container{width:50%; float:left;}
+.img_container img{width:100%; float:left; padding:2% 0 0 10%;}
+.inner_text_container{margin-bottom:20px;}
+.inner_text_container h2{font-size:20px; font-weight:bold; color:#ee1f23; margin-bottom:15px;}
+.inner_text_container ul{width:100%; float:left;}
+.inner_text_container ul li{width:100%; float:left; font-size:16px; margin-bottom:22px; line-height:30px; list-style:none; background:url(images/li_img.png) no-repeat scroll 10px 10px; padding:0 0 0 30px;}

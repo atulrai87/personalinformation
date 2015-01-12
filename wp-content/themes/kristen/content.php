@@ -9,7 +9,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
+<section class="full_width banner_area">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php twentyfourteen_post_thumbnail(); ?>
 
@@ -69,3 +69,4 @@
 
 	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
 </article><!-- #post-## -->
+</section>

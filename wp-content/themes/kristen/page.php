@@ -11,17 +11,20 @@
  * @since Twenty Fourteen 1.0
  */
 get_header(); ?>
-
-<section class="full_width">
-  <div class="main_container">
-    <div class="main_inner">
+<div class="min-width">
+<section class="full_width index_body">
+<div class="main_container">
+<div class="main_inner">
+		
       <?php
 		while ( have_posts() ) : the_post();
-			get_template_part( 'content', 'page' );
+		the_content();
+			//get_template_part( 'content', 'page' );
 		endwhile;
 		?>
     </div>
   </div>
 </section>
+</div>
 <?php
 get_footer(); ?>
