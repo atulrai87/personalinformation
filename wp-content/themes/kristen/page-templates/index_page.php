@@ -11,17 +11,19 @@ get_header();
 <div class="min-width">
 <section class="full_width banner_area">
   <div class="main_container">
-    <div class="main_inner"> <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?> </div>
+    <div class="main_inner">
+    <div class="banner_txt_part"><p >The Mayor for ALL of Columbus</p></div>
+     <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?> </div>
   </div>
 </section>
 <div class="clear"></div>
 <section class="full_width index_body">
   <div class="main_container">
     <div class="main_inner">
-      <div class="full_width get_latest_w">
+      <!--<div class="full_width get_latest_w">
         <h1 class="get_the_latest">GET THE LATEST</h1>
       </div>
-      <div class="clear"></div>
+      <div class="clear"></div>-->
       <?php dynamic_sidebar('Content Sidebar');?>
       <!--<div class="index_Blog_links">
         <div class="blog_title_index full_width"> Blog Update </div>

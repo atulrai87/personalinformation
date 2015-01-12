@@ -33,7 +33,7 @@
       <figure class="logo_top"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_header_image();?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" /></a></figure>
       <div class="navSearch_w">
         <div class="search_box">
-          <?php get_search_form(); ?>
+          <?php //get_search_form(); ?>
         </div>
          <nav class="nav_top full_width">	
           <?php $defaults = 

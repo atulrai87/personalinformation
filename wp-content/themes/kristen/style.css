@@ -68,7 +68,9 @@ footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
 .footer_nav .social_icon .fb_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat 0px 0; }
 .footer_nav .social_icon .tw_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat -40px 0; margin-left:8px;}
 .footer_nav .social_icon .ytube_icn{width:40px; height:40px; display:block; float:left; background:url(images/social_icon.png) no-repeat -82px 0; margin-left:8px;}
-footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
+.btm_footer_txt .allright{margin-top:10px; font-size:14px; color:#fff; width:50%; float:left;}
+.btm_footer_txt .allright1{margin-top:10px; font-size:14px; color:#fff; width:50%; float:right; text-align:right;}
+
 
 /**************05 jan arvind**************/
 .red_color{color:#ed2024; font-weight:bold; font-size:20px;}
@@ -92,7 +94,7 @@ footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
 .topNav_Ul li a{padding:30px 12px 25px 12px; display:inline-block; color:#334096;}
 .topNav_Ul li a:hover, .topNav_Ul li.current-menu-item a{ background:#f6f6f6; color:#ed2024;}
 .topNav_Ul li:hover ul {display:block; }
-.topNav_Ul ul {display:none;  max-width: 17.5%; position:absolute; text-align:center;  z-index: 999;}
+.topNav_Ul ul {display:none;  max-width: 22.5%; position:absolute; text-align:center;  z-index:1000;}
 .topNav_Ul ul li {list-style:none; display:inline-block; border:1px solid #ebebeb; width:100%; font-size:14px; background:#f6f6f6;}
 .topNav_Ul ul li a {color: #334096; display: inline-block; padding: 13px 20px; width:100%; }
 .topNav_Ul ul li a:hover {background: #ebebeb; color:#ed2024;}
@@ -120,6 +122,7 @@ footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
 .plan_rightPart img{width:100%; float:right;}
 .plan_inner_part p{font-size:16px; float:left; width:100%; line-height:35px; padding-right:5% ; color:#000;}
 .btm_padding1{padding-bottom:15px;}
+.blue_color1{color:#334096; font-weight:bold; font-size:16px;}
 .blue_color{color:#334096; font-weight:bold; font-size:20px;}
 .blue_color_normal{color:#334096 !important;  font-size:20px;}
 .plan_inner_part p a{ text-decoration:underline; color:#ed2024; }
@@ -132,7 +135,7 @@ footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
 .community_btmPart p{font-size:16px; float:left;  line-height:35px; color:#000 !important; width:100%;}
 .inner_3penal_wrap{width:100%; float:left; margin-top:18px;}
 .gradient_color { height:43px;  background:linear-gradient(#d6d5d6 , #e4e4e4, #dfdede); background: -webkit-linear-gradient(#d6d5d6 , #e4e4e4, #dfdede); /* For Safari 5.1 to 6.0 */  background: -moz-linear-gradient-linear-gradient(#d6d5d6 , #e4e4e4, #dfdede); background: -ms-linear-gradient(#d6d5d6 , #e4e4e4, #dfdede); background: -o-linear-gradient(#d6d5d6 , #e4e4e4, #dfdede);  border:1px solid #b7b4b4;}
-.left_gradient_txt{ color:#e5252a; font-size:16px; padding:11px 18px; float:left; width:95%;}
+.left_gradient_txt{ color:#334096; font-size:16px; padding:11px 18px; float:left; width:95%;}
 .right_img{ width:5%; float:right; padding:11px 18px;}
 .bold_txt{ font-weight:bold;}
 .over_show_text  ul{width:100%; float:left; padding:0 1% 0 0;}
@@ -146,3 +149,7 @@ footer.footer_main .allright{margin-top:10px; font-size:14px; color:#fff;}
 .btn_right_part{ width:80%; float:right;}
 .btn_right_part p{font-size:16px; float:left; width:100%; padding:50px 0 0 5%; color:#000;}
 .btn_blue_container{ width: 50%; float: right; position: absolute; top: 750px; left: 650px; }
+.banner_txt_part{ width:65%; float:left; position:absolute; background:rgba(229, 37, 42, 0.74); z-index:999; top:380px; left:9px;}
+.banner_txt_part p{ font-size:47px; font-family:"Calibri"; color:#fff; padding:15px 3%; text-shadow:2px 1px #000;}
+.more_text p{ font-size:16px; float:right;}
+.more_text p a{ text-decoration:underline; color:#ed2024;}

@@ -35,7 +35,8 @@
 		?>
           <div class="social_icon"> <a href="https://www.facebook.com/" target="_blank"><span class="fb_icn"></span></a> <a href="https://twitter.com/" target="_blank"><span class="tw_icn"></span></a> <a href="https://www.youtube.com/" target="_blank"><span class="ytube_icn"></span></a> </div>
         </nav>
-        <div class="full_width allright"> © 2014 Mayor Kristen Brown 5 All Rights Reserved. </div>
+        <div class="full_width btm_footer_txt">
+        <div class="allright"> <?php dynamic_sidebar('Footer Widget Area')?> </div><div class="allright1">Paid for by Friends of Kristen Brown</div></div>
       </div>
     </div>
   </div>
