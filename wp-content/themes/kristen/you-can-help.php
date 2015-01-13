@@ -66,13 +66,14 @@ get_header(); ?>
 <div class="form_input_box"><input type="text" name="phone"></div>
 
 </div>
-</div>
+</div></div>
 <div class="form_botton1">
 <input type="submit" value="Submit" name="submit">
+
+</div>
 </form>
-</div></div>
 <div class="btn_blue_container"><div class="btn_part"><div class="donate_btn"><img src="<?php bloginfo('template_directory')?>/images/brown_donate_button_small.gif"></div><div class="btn_right_part"><p>To donate, please click here</p></div></div></div>
-    </div>
+  </div>  
   </div>
 </section>
 <?php

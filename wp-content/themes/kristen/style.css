@@ -148,7 +148,7 @@ footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
 .btn_right_part p{font-size:16px; float:left; width:100%; padding:50px 0 0 5%; color:#000;}
 .btn_blue_container{ float: right;left: 565px; position: absolute; top: 381px;  width: 50%; }
 .banner_txt_part{ width:65%; float:left; position:absolute; background:rgba(229, 37, 42, 0.74); z-index:999; top:380px; left:9px;}
-.banner_txt_part p{ font-size:47px; font-family:"Calibri"; color:#fff; padding:15px 3%; text-shadow:2px 1px #000;}
+.banner_txt_part p{ font-size:41px; font-family:arial; color:#fff; padding:15px 3%; text-shadow:2px 1px #000;}
 .more_text p{ font-size:16px; float:right;}
 .more_text p a{ text-decoration:underline; color:#ed2024;}
 header.topheader { border-bottom: 2px solid #f6f6f6;}
