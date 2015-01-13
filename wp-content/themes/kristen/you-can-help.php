@@ -70,13 +70,7 @@ get_header(); ?>
 <div class="form_botton1">
 <input type="submit" value="Submit" name="submit">
 </form>
-</div>
-
-
-</div>
-<!--<p class="top_margin text_align" >Thank you for your interest in advancing Columbus! The campaign team will be in touch with you soon</p>-->
-
-</div>
+</div></div>
 <div class="btn_blue_container"><div class="btn_part"><div class="donate_btn"><img src="<?php bloginfo('template_directory')?>/images/brown_donate_button_small.gif"></div><div class="btn_right_part"><p>To donate, please click here</p></div></div></div>
     </div>
   </div>
