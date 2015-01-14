@@ -33,11 +33,13 @@ background: linear-gradient(to bottom, #f3f3f3 1%,#fafafa 66%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */}
 .search_box form .search-submit{background:url(images/search_btn.png) no-repeat center;color: rgba(0, 0, 0, 0); cursor: pointer; height: 16px; overflow: hidden; position: absolute; right: 8px; top: 9px; width: 16px;}
 .banner_area{background:#ed2024; height:485px; overflow:hidden;}
-.index_body{padding:65px 0 0 0;}
+.index_body{padding:30px 0 0 0; }
+.index_body p{ font-size:17px; color:#334096; line-height:35px;}
 .get_latest_w{text-align:center; position:relative; margin:0 0 38px 0;}
 .get_the_latest{ display:inline-block; font-size:25px; color:#fff; background:#ed2024; text-align:center; width:270px; padding:15px 0;}
 .get_latest_w:after{background:#ddd; content: ""; float: left; height: 1px; left: 0; position: absolute; top: 50%; width: 100%; z-index: -1;}
-.index_about_mayor{width:100%; float:left; line-height:30px; }
+.index_about_mayor{width:100%; float:left;  }
+.index_about_mayor p{color:#334096; line-height:35px;}
 .index_about_mayor .mayor_name{font-size:20px; margin-top:8px; text-align:right;}
 .index_Blog_links{ width:26%; float:left;}
 .blog_title_index{background:#f5686a; border:1px solid #ed2024; padding:12px; font-size:18px; color:#fff; text-align:center; margin-bottom:10px;}
@@ -72,7 +74,7 @@ footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
 .btm_footer_txt .allright1{margin-top:10px; font-size:14px; color:#fff; width:50%; float:right; text-align:right;}
 /**************05 jan arvind**************/
 .red_color{color:#ed2024; font-weight:bold; font-size:20px;}
-.main_headingBorder{border-bottom: 3px solid #ed2024; margin: 10px 0 0 12.5%; text-align: center; width: 75%;}
+.main_headingBorder{border-bottom: 3px solid #ed2024; margin: 10px 0 0 7.5%; text-align: center; width: 85%;}
 .main_heading h1{text-align:center; font-size:24px; color:#ed2024; font-weight:bold;  }
 .inner_blue_container{width:50%; float:left;}
 .inner_blue_container p{font-size:18px; float:left; color:#334096; line-height:35px; width:100%;  }
@@ -121,9 +123,12 @@ footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
 .plan_rightPart img{width:100%; float:right;}
 .plan_inner_part p{font-size:16px; float:left; width:100%; line-height:35px; padding-right:5% ; color:#000;}
 .btm_padding1{padding-bottom:15px;}
-.blue_color1{color:#334096; font-weight:bold; font-size:16px;}
+.blue_color1{color:#334096; font-weight:bold!important; font-size:16px;}
 .blue_color{color:#334096; font-weight:bold; font-size:20px;}
 .blue_color_normal{color:#334096 !important;  font-size:20px;}
+.li_red_color{color:#ed2024; text-decoration:underline;}
+.li_blue_color{color:#334096;}
+.li_blue_color a{color:#334096;}
 .plan_inner_part p a{ text-decoration:underline; color:#ed2024; }
 /*********************** 08 Arvind***********************/
 .inner_value h2{font-size:20px; font-weight:bold; color:#ee1f23; }
@@ -142,14 +147,16 @@ footer.footer_main .footer_nav .social_icon{float:right; margin-top:10px;}
 .contact_part p img{ width:5%; }
 .min-width {width: 100%;float: left;min-width: 1024px;}
 .btn_part{ width:100%; float:left;}
-.donate_btn{ width:20%; float:left;}
+.donate_btn{ width:29%; float:right;}
 .donate_btn img{width:100%; float:left;}
-.btn_right_part{ width:80%; float:right;}
-.btn_right_part p{font-size:16px; float:left; width:100%; padding:50px 0 0 5%; color:#000;}
-.btn_blue_container{ float: right;left: 565px; position: absolute; top: 381px;  width: 50%; }
+.btn_right_part{ width:60%; float:left;}
+.btn_right_part p{font-size:16px; float:left; width:100%; padding:35px 0 0 7%; color:#000;}
+.btn_blue_container{ float: right;left: 565px; position: absolute; top: 381px;  width: 37%; }
 .banner_txt_part{ width:65%; float:left; position:absolute; background:rgba(229, 37, 42, 0.74); z-index:999; top:380px; left:9px;}
 .banner_txt_part p{ font-size:41px; font-family:arial; color:#fff; padding:15px 3%; text-shadow:2px 1px #000;}
 .more_text p{ font-size:16px; float:right;}
 .more_text p a{ text-decoration:underline; color:#ed2024;}
 header.topheader { border-bottom: 2px solid #f6f6f6;}
 .over_show_text.toggle{display:none;}
+.home_page_padding{ padding-top:30px;}
+.main_heading{margin-top:30px;}

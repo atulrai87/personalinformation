@@ -22,7 +22,7 @@ $(document).ready(function(e) {
 <section class="full_width index_body">
   <div class="main_container">
     <div class="main_inner">
-      <div class="main_heading full_width">
+      <div class="main_heading full_width top_margin">
         <h1 class="red_color ">A Record of Success Overview</h1>
         <div class="main_headingBorder"></div>
       </div>
@@ -34,7 +34,7 @@ $(document).ready(function(e) {
       </div>
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
-          <li>Completed the largest road repair project in the city’s history by investing an unprecedented $10 million to reconstruct and resurface 40 miles of crumbling streets.</li>
+          <li>Completed the largest road repair project in the city’s history by investing nearly $10 million to reconstruct and resurface 40 miles of crumbling streets. </li>
           <li>Completed or began six major road improvement projects for a combined investment of $20 million.</li>
         </ul>
         <div class="more_text full_width">
@@ -46,8 +46,8 @@ $(document).ready(function(e) {
       </div>
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
-          <li>Embarked on an aggressive program to invest 5.5 million public and private dollars to preserve and improve our existing parks and community facilities, including Hamilton and Donner Centers.</li>
-          <li>Reversed years of neglect and deterioration of our community’s most cherished facilities and ensured they are safe and inviting outdoor and indoor spaces enjoyed by today’s and future generations.</li>
+          <li>Embarked on an aggressive program to invest 5.5 million public and private dollars to preserve and improve our existing parks and community facilities, including Hamilton and Donner Centers.  </li>
+          <li>Reversed years of neglect and deterioration of our community’s most cherished facilities and ensured they are safe and inviting outdoor and indoor spaces enjoyed by today’s and future generations.  </li>
         </ul>
         <div class="more_text full_width">
           <p> <a href="">Read More</a></p>
@@ -58,10 +58,11 @@ $(document).ready(function(e) {
       </div>
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
-          <li>Put more police officers and paramedic firefighters on our streets than any time in our city’s history. </li>
-          <li>Took a major bite out of crime by aggressively choking the supply of dangerous drugsinto our community and increasing community policing. </li>
-          <li>Improved ambulance service and, at the same time, saved significant taxpayers nearly $1 million every year. </li>
-          <li>Dramatically advancedrescue, disaster and extreme weather response capabilities, thwarting the myriad of threats we face.</li>
+          <li>Put more police officers on our streets than any time in our city’s history and established a dedicated community policing unit. </li>
+          <li>Choked the flow of <span class="li_red_color">dangerous drugs into our community</span> by cracking down on a threefold increase in the number of dealers of methamphetamine and heroin.   </li>
+          <li>Cut violent crime nearly in half and cut property crime 23%. </li>
+          <li>Improved ambulance service and, at the same time, savedtaxpayers nearly $1 million every year.  </li>
+           <li>Dramatically advanced rescue, disaster and extreme weather response capabilities, thwarting the myriad of threats we face. </li>
         </ul>
         <div class="more_text full_width">
           <p> <a href="">Read More</a></p>
@@ -72,9 +73,9 @@ $(document).ready(function(e) {
       </div>
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
-          <li>Made our neighborhoods safer, stronger and prouder through community policing, neighborhood cleanup projects, concentrated code enforcement and significant blight elimination efforts. </li>
-          <li>Completed the State Street Corridor Revitalization Plan and began implementation efforts. </li>
-          <li>Partnered with private developers to remediate and redevelop the Golden Casting foundry site, a decade-long source of blight. </li>
+          <li>Made our neighborhoods safer, stronger and prouder through community policing, neighborhood cleanup projects, concentrated code enforcement and significant blight elimination efforts.  </li>
+          <li>Completed the State Street Corridor Revitalization Plan and began implementation efforts.   </li>
+          <li>Partnered with private developers who are planning to remediate and redevelop the Golden Casting foundry site, a decade-long source of blight.   </li>
         </ul>
         <div class="more_text full_width">
           <p> <a href="">Read More</a></p>
@@ -85,9 +86,9 @@ $(document).ready(function(e) {
       </div>
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
-          <li>Setall-time records for jobs and employment, second lowest unemployment rate in the state.</li>
-          <li>Reaffirmed Cummins’ commitment to Columbus with announcement of 500 new jobs. </li>
-          <li>Encouraged the creation of more than another 500 new industrial jobs and investments of nearly $250 million.</li>
+          <li>Set all-time records for jobs and employment, second lowest unemployment rate in the state. </li>
+          <li>Reaffirmed Cummins’ commitment to Columbus with announcement of 500 new jobs.   </li>
+          <li>Encouraged the creation and retention <span class="li_red_color">of another 600 industrial jobs</span> and investments of exceeding $250 million.</li>
         </ul>
         <div class="more_text full_width">
           <p> <a href="">Read More</a></p>
@@ -98,11 +99,11 @@ $(document).ready(function(e) {
       </div>
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
-          <li>Operated transparently, responsively, ethically and with accountability. </li>
-          <li>Dissolved the City’s private corporation, CDI, and stopped spending taxpayer money behind closed doors. </li>
-          <li>Began live and on-demand broadcasting of public meetings on the internet. </li>
-          <li>Passed comprehensive code of ethical conduct. </li>
-          <li>Attained national accreditation by the Columbus Police Department.</li>
+          <li>Operated transparently, responsively, ethically and with accountability.   </li>
+          <li>Dissolved the City’s private corporation, CDI, and stopped spending taxpayer money behind closed doors.   </li>
+          <li>Began live and on-demand broadcasting of public meetings on the internet.  </li>
+          <li>Passed comprehensive code of ethical conduct.   </li>
+          <li>Attained national accreditation by the Columbus Police Department. </li>
         </ul>
         <div class="more_text full_width">
           <p> <a href="">Read More</a></p>
