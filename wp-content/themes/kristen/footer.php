@@ -7,7 +7,7 @@
 ?>
 
 <div class="clear"></div>
-<div class="min-width">
+
 <div class="subscribe_news_letter full_width">
   <div class="main_container">
     <div class="main_inner">
@@ -41,7 +41,7 @@
     </div>
   </div>
 </footer>
-</div>
+
 <?php wp_footer(); ?>
 </body></html>
 <script>
