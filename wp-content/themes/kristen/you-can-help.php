@@ -5,15 +5,15 @@
 get_header(); ?>
 <div class="min-width">
 <section class="full_width index_body">
-  <div class="main_container">
-    <div class="main_inner">
+<div class="main_container">
+<div class="main_inner">
+		
       <?php
 		while ( have_posts() ) : the_post();
 		the_content();
 			//get_template_part( 'content', 'page' );
 		endwhile;
 		?>
-<<<<<<< HEAD
 		<div class="main_heading full_width">
 			<h1 class="red_color ">Help Kristen</h1>
 			<div class="main_headingBorder"></div>
@@ -73,102 +73,6 @@ get_header(); ?>
 </form>
 </div>
 
-=======
-      <div class="main_heading full_width">
-        <h1 class="red_color ">Help Kristen</h1>
-        <div class="main_headingBorder"></div>
-      </div>
-      <div class="plan_inner_part full_width top_margin">
-      <div class="inner_blue_container">
-      <p>I WOULD LIKE TO HELP KRISTEN BY:</p>
-      <form action="" method="post">
-        <p>
-          <input type="checkbox" name="ch1" value="PLACING A YARD SIGN IN MY YARD">
-          PLACING A YARD SIGN IN MY YARD</p>
-        <p>
-          <input type="checkbox" name="ch2" value="GOING DOOR TO DOOR">
-          GOING DOOR TO DOOR</p>
-        <p>
-          <input type="checkbox" name="ch3" value="MAKING PHONE CALLS">
-          MAKING PHONE CALLS</p>
-        <p>
-          <input type="checkbox" name="ch4" value="OTHER ACTIVITIES IF AVAILABLE">
-          OTHER ACTIVITIES IF AVAILABLE</p>
-        </div>
-        </div>
-        <div class="form_part full_width top_margin">
-          <div class="form_left">
-            <div class="full_width form_left_container">
-              <div class="form_text">
-                <p>First Name<span>*</span></p>
-              </div>
-              <div class="form_input_box">
-                <input type="text" name="fname">
-              </div>
-            </div>
-            <div class="full_width form_left_container">
-              <div class="form_text">
-                <p> Street Address<span>*</span></p>
-              </div>
-              <div class="form_input_box">
-                <textarea type="text" name="saddress"></textarea>
-              </div>
-            </div>
-            <div class="full_width form_left_container">
-              <div class="form_text">
-                <p>Email<span>*</span></p>
-              </div>
-              <div class="form_input_box">
-                <input type="text" name="email">
-              </div>
-            </div>
-          </div>
-          <div class="form_right">
-            <div class="full_width form_left_container">
-              <div class="form_text">
-                <p>Last Name<span>*</span></p>
-              </div>
-              <div class="form_input_box">
-                <input type="text" name="lname">
-              </div>
-            </div>
-            <div class="full_width form_left_container">
-              <div class="form_text">
-                <p>Zip Code<span>*</span></p>
-              </div>
-              <div class="form_input_box">
-                <input type="text" name="zipcode">
-              </div>
-            </div>
-            <div class="full_width form_left_container top_padding">
-              <div class="form_text">
-                <p>Phone<span>*</span></p>
-              </div>
-              <div class="form_input_box">
-                <input type="text" name="phone">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="form_botton1">
-          <input type="submit" value="Submit" name="submit">
-        </div>
-      </form>
-      <div class="btn_blue_container">
-        <div class="btn_part">
-          <div class="btn_right_part">
-            <p>To donate, please click here</p>
-          </div>
-          <div class="donate_btn"><img src="<?php bloginfo('template_directory')?>/images/brown_donate_button_small.gif"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<?php
-get_footer(); ?>
-<?php
->>>>>>> c7c7c772d6246409cc169684125b5dd6a1796322
 
 </div>
 <!--<p class="top_margin text_align" >Thank you for your interest in advancing Columbus! The campaign team will be in touch with you soon</p>-->
@@ -244,7 +148,6 @@ if(isset($_POST["sub"]))
 	}	
 }
 ?>
-<<<<<<< HEAD
 <script type = 'text/javascript'>
 	function validation()
 	{
@@ -329,5 +232,3 @@ if(isset($_POST["sub"]))
 		//document.form1.submit();
 	}
 </script>
-=======
->>>>>>> c7c7c772d6246409cc169684125b5dd6a1796322

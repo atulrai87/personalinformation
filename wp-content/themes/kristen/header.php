@@ -45,8 +45,4 @@
     </div>
   </div>
 </header>
-<<<<<<< HEAD
 <div class="clear"></div>
-=======
-<div class="clear"></div>
->>>>>>> c7c7c772d6246409cc169684125b5dd6a1796322
