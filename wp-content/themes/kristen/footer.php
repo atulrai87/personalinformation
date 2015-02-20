@@ -7,7 +7,7 @@
 ?>
 
 <div class="clear"></div>
-<div class="min-width">
+
 <div class="subscribe_news_letter full_width">
   <div class="main_container">
     <div class="main_inner">
@@ -33,7 +33,7 @@
 	    array('menu'  => 'Secondary menu in left sidebar', 'container' => '', 'echo' => true, 'items_wrap' => '<ul>%3$s</ul>',);
 		wp_nav_menu( $defaults );
 		?>
-          <div class="social_icon"> <a href="https://www.facebook.com/" target="_blank"><span class="fb_icn"></span></a> <a href="https://twitter.com/" target="_blank"><span class="tw_icn"></span></a> <a href="https://www.youtube.com/" target="_blank"><span class="ytube_icn"></span></a> </div>
+          <div class="social_icon"> <a href="https://www.facebook.com/KristenSueBrown" target="_blank"><span class="fb_icn"></span></a> <a href="https://twitter.com/kristensbrown" target="_blank"><span class="tw_icn"></span></a> <a href="http://instagram.com/brownforcolumbus/" target="_blank"><span class="ytube_icn"></span></a> </div>
         </nav>
         <div class="full_width btm_footer_txt">
         <div class="allright"> <?php dynamic_sidebar('Footer Widget Area')?> </div><div class="allright1">Paid for by Friends of Kristen Brown</div></div>
@@ -41,7 +41,7 @@
     </div>
   </div>
 </footer>
-</div>
+
 <?php wp_footer(); ?>
 </body></html>
 <script>

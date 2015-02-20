@@ -11,7 +11,7 @@
  * @since Twenty Fourteen 1.0
  */
 get_header(); ?>
-<div class="min-width">
+
 <section class="full_width index_body">
 <div class="main_container">
 <div class="main_inner">
@@ -25,6 +25,6 @@ get_header(); ?>
     </div>
   </div>
 </section>
-</div>
+
 <?php
 get_footer(); ?>

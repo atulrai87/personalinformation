@@ -38,7 +38,7 @@ $(document).ready(function(e) {
           <li>Completed or began six major road improvement projects for a combined investment of $20 million.</li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="roads">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width ">
@@ -50,7 +50,7 @@ $(document).ready(function(e) {
           <li>Reversed years of neglect and deterioration of our community’s most cherished facilities and ensured they are safe and inviting outdoor and indoor spaces enjoyed by today’s and future generations.  </li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="parks">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width">
@@ -59,13 +59,13 @@ $(document).ready(function(e) {
       <div class="over_show_text full_width btm_padding1 toggle">
         <ul>
           <li>Put more police officers on our streets than any time in our city’s history and established a dedicated community policing unit. </li>
-          <li>Choked the flow of <span class="li_red_color">dangerous drugs into our community</span> by cracking down on a threefold increase in the number of dealers of methamphetamine and heroin.   </li>
+          <li>Choked the flow of dangerous drugs into our community by cracking down on a threefold increase in the number of dealers of methamphetamine and heroin.   </li>
           <li>Cut violent crime nearly in half and cut property crime 23%. </li>
           <li>Improved ambulance service and, at the same time, savedtaxpayers nearly $1 million every year.  </li>
            <li>Dramatically advanced rescue, disaster and extreme weather response capabilities, thwarting the myriad of threats we face. </li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="public-safetyt">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width">
@@ -78,7 +78,7 @@ $(document).ready(function(e) {
           <li>Partnered with private developers who are planning to remediate and redevelop the Golden Casting foundry site, a decade-long source of blight.   </li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="neighborhoods">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width">
@@ -88,10 +88,10 @@ $(document).ready(function(e) {
         <ul>
           <li>Set all-time records for jobs and employment, second lowest unemployment rate in the state. </li>
           <li>Reaffirmed Cummins’ commitment to Columbus with announcement of 500 new jobs.   </li>
-          <li>Encouraged the creation and retention <span class="li_red_color">of another 600 industrial jobs</span> and investments of exceeding $250 million.</li>
+          <li>Encouraged the creation and retention of another 600 industrial jobs and investments of exceeding $250 million.</li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="jobs">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width">
@@ -106,7 +106,7 @@ $(document).ready(function(e) {
           <li>Attained national accreditation by the Columbus Police Department. </li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="good-government">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width">
@@ -121,7 +121,7 @@ $(document).ready(function(e) {
           <li>Maintained strong cash reserves and City’s strong credit rating.</li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="fiscal-responsibility">Read More</a></p>
         </div>
       </div>
       <div class="gradient_color full_width">
@@ -136,7 +136,7 @@ $(document).ready(function(e) {
           <li>Began cost-sharing program with homeowners to repair sidewalks and curbs.</li>
         </ul>
         <div class="more_text full_width">
-          <p> <a href="">Read More</a></p>
+          <p> <a href="expanded-services">Read More</a></p>
         </div>
       </div>
     </div>

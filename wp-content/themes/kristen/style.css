@@ -160,3 +160,4 @@ header.topheader { border-bottom: 2px solid #f6f6f6;}
 .over_show_text.toggle{display:none;}
 .home_page_padding{ padding-top:30px;}
 .main_heading{margin-top:30px;}
+body > .full_width{min-width:1024px;}

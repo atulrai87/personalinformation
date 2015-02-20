@@ -91,7 +91,7 @@
 
 			if ( body.is( '.header-image' ) ) {
 				toolbarOffset  = body.is( '.admin-bar' ) ? $( '#wpadminbar' ).height() : 0;
-				mastheadOffset = $( '#masthead' ).offset().top - toolbarOffset;
+				//mastheadOffset = $( '#masthead' ).offset().top - toolbarOffset;
 
 				_window.on( 'scroll.twentyfourteen', function() {
 					if ( _window.scrollTop() > mastheadOffset && mastheadHeight < 49 ) {
