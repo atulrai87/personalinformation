@@ -24,6 +24,20 @@ get_header();
         <h1 class="get_the_latest">GET THE LATEST</h1>
       </div>
       <div class="clear"></div>-->
+       <div class="home_page_top_btn full_width ">
+        <div class="left_top_Volunteer">
+          <div class="Volunteer_icon"><a href="<?php echo site_url();?>/you-can-help"><img src="<?php bloginfo('template_directory');?>/images/Volunteer_icon.png" /></a></div>
+          <div class="Volunteer_text">Volunteer</div>
+        </div>
+        <div class="left_top_request">
+          <div class="Volunteer_icon"><a href="<?php echo site_url();?>/you-can-help"><img src="<?php bloginfo('template_directory');?>/images/request_icon.png" /></a></div>
+          <div class="request_text">Request A Sign</div>
+        </div>
+        <div class="left_top_donate">
+          <div class="Volunteer_icon"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=tGIx7b_PAPlMTC1t1y_UPbKmoB-pwWc8ex1puiYF0xXdYQ3u4YvHHUlV-UC&dispatch=5885d80a13c0db1f8e263663d3faee8da8649a435e198e44a05ba053bc68d12e" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/donate.png" /></a></div>
+          <div class="donate_text">Donate</div>
+        </div>
+      </div>
       <?php dynamic_sidebar('Content Sidebar');?>
       <!--<div class="index_Blog_links">
         <div class="blog_title_index full_width"> Blog Update </div>
