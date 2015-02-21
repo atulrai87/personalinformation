@@ -34,8 +34,18 @@ get_header();
           <div class="request_text">Request A Sign</div>
         </div>
         <div class="left_top_donate">
-          <div class="Volunteer_icon"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=tGIx7b_PAPlMTC1t1y_UPbKmoB-pwWc8ex1puiYF0xXdYQ3u4YvHHUlV-UC&dispatch=5885d80a13c0db1f8e263663d3faee8da8649a435e198e44a05ba053bc68d12e" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/donate.png" /></a></div>
-          <div class="donate_text">Donate</div>
+          <div class="Volunteer_icon"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+<input type="hidden" name="cmd" value="_s-xclick">
+
+<input type="hidden" name="hosted_button_id" value="B5EW8MUC9GWBG">
+
+<input type="image" src="<?php bloginfo('template_directory');?>/images/donate.png" width="100" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+</form></div>
+          <div class="donate_text">&nbsp;Donate</div>
         </div>
       </div>
       <?php dynamic_sidebar('Content Sidebar');?>

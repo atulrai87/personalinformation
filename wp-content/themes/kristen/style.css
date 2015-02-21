@@ -170,4 +170,5 @@ body > .full_width{min-width:1024px;}
 .donate_text{float:left; width:59%; color:#fff; padding:35px 0 0 0; font-size:24px; margin-left:3%;  }
 .left_top_request{ width:33%; float:left; padding:0 1% 0 3%;  }
 .left_top_donate{ width:33%; float:left; padding:0 1% 0 6%; }
-
+.ngg-gallery-thumbnail .ngg_lightbox{display:inline-block; height:160px; overflow:hidden; outline: 1px solid #a9a9a9; box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; -msbox-sizing:border-box; width:240px; border:3px solid #fff; margin:8px 2px 0 2px; text-align: center;}
+.ngg-gallery-thumbnail .ngg_lightbox img{height:auto; border:none; padding:0; margin:0; display: inline-block; float: none; width:auto; max-width:100%;}
