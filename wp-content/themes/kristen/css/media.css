@@ -34,7 +34,7 @@ footer.footer_main .footer_nav ul li a{margin: 0 8px 0 0;}
 .topNav_Ul.full_width.active_menu li .sub-menu{position:static; max-width:none; width:100%; float:left;}
 .topNav_Ul.full_width.active_menu li.menu-item-has-children{background:url(../images/plus.png) no-repeat 97% 11px; cursor:pointer;}
 .topNav_Ul.full_width.active_menu li.menu-item-has-children.active_sb{background:url(../images/minus.png) no-repeat 97% 11px;}
-
+.topNav_Ul.full_width.active_menu li .sub-menu li a{width:100%; float:left; display:block; text-align:left;}
 }
 @media screen and (max-width: 900px) {
 footer.footer_main .footer_logo{display:none;}
@@ -114,5 +114,3 @@ header.topheader .logo_top img{width:100%;}
 .form_input_box{width:100%;}
 .btn_blue_container{width:315px;}
 }
-
-
